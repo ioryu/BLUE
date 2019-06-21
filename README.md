@@ -1,1 +1,1 @@
-# BLUE-LAMP
+# BLUE
