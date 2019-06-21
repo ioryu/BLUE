@@ -1,97 +1,110 @@
 body{
-	font-size: "Avenir Next";
-}
-li{
-	list-style: none;
-}
-.header {
-  background-color: #26d0c9;
-  height: 100px;
-	padding: 0;
-	margin: 0;
-
-}
-.header-list li{
-	float: left;
-	padding: 33px 20px;
-}
-/* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
-.header-logo{
-	float: left;
-	font-size: 36px;
-	padding: 20px 40px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.618;
 }
 
-.main {
-	background-color: #AAFFFF;
-  padding：100px 80px；
+@@media screen and (max-width:479px)
+ {
+body{
+  font-size: 13px;
 }
-.s{
-	margin: 0;
-
 }
-span{
-	color:#FF5192;
+.header{
+  border-bottom: 3px solid #888;
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 2em;
+  background: #e8e8e8 ;
 }
-.w{
-	color: #4689FF;
-
+.logo-wrapper{
+  margin:0;
+  padding:0;
+  line-height: 1;
 }
-.copy-contents h1{
-	font-size: 140px;
+.logo{
+  width: 400px;
+  height: auto;
 }
-.copy-contents h2{
-	font-size: 60px;
+@media screen and(max-width:479px;)
+{
+  .logo{
+    width: 150px;
+  }
 }
-.section-title{
-	border-bottom: 2px solid #dee7ec;
-	padding-bottom: 15px;
-	margin-bottom: 50px;
+.footer
+{
+	border-top: 3px solid #888 ;		/* 枠線 */
+	text-align: center ;				/* テキスト、画像の真ん中寄せ */
+	margin-top: 2em ;					/* 他のブロックとのスペース */
+	padding: 1em 0 ;					/* 上下の余白 */
+	background: #e8e8e8 ;
 }
-.contents{
-	height: 500px;
-	margin-top: 100px;
+.wrapper
+{
+	width: 1000px ;
+	margin: 0 auto ;	/* 左右に[auto]を指定することで、真ん中に寄る */
+	padding: 0 ;		/* 上下左右の余白を0にしておく */
+}
+@media screen and ( max-width:479px )
+{
+	.wrapper
+	{
+		width: auto ;
+		padding: 0 10px ;		/* 左右の余白 */
 	}
-	img{
-		height: 400px;
-		width: 250px;
-	}
-.contents-item{
-	float: left;
-	margin-right: 40px;
 }
-.contents p{
-	font-size:24px;
-	margin-top: 30px;
+.main
+{
+	width: 618px ;
+	padding: 20px ;							/* 上下左右に20pxの余白 */
+	border: 1px solid rgba(0,0,0,.1) ;		/* 枠線 */
 }
-.contact-form{
-	padding-top: 100px;
+.side
+{
+	width: 320px ;
 }
-input{
-	width: 400px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 20px;
-	font-size:18px;
-	border: 1px solid #dee7ec
-}
-.contact-submit{
-	background-color: #dee7ec;
-	color: #889eab;
-}
+@media screen and ( max-width:479px )
+{
+	.main
+	{
+		width: auto ;
+		padding: 0 ;		/* 余白 */
+		border: none 	;	/* 枠線 */
 
-.footer {
-  background-color: #2f5167;
-  height: 120px;
-	color:#fff;
-	padding: 40px;
+	}
+
+	.side
+	{
+		width: auto ;
+
+	}
 }
-.footer-logo{
-	float: left;
-}
-.footer-list {
-	float: right;
-}
-.footer-list li{
-	padding-bottom: 20px;
-}
+  .main
+  {
+  	float: left ;		/* 左に寄せる */
+  }
+
+  .side
+  {
+  	float: right ;		/* 右に寄せる */
+  }
+
+  /* スマホだけに適用するCSS */
+  @media screen and ( max-width:479px )
+  {
+  	.main
+  	{
+  		float: none ;		/* floatを無効する */
+  	}
+
+  	.side
+  	{
+  		float: none ;		/* floatを無効する */
+  	}
+  }
+  .wrapper
+  {
+  	overflow: hidden ;		/* floatを解除する */
+  }
