@@ -11,12 +11,18 @@ body{
   font-size: 13px;
 }
 }
-.header{
-  border-bottom: 3px solid #888;
-  text-align: center;
-  padding: 1em 0;
-  margin-bottom: 2em;
-  background: #e8e8e8 ;
+.header , .footer{
+background: #994d71;
+border: 3px solid  #cca3b7;
+}
+.header-w {	/* 枠線 */
+  	text-align: center ;				/* テキスト、画像の真ん中寄せ */
+  	margin-top: 2em ;					/* 他のブロックとのスペース */
+  	padding: 1em 0 ;					/* 上下の余白 */
+    width: 1000px ;
+  	padding: 20px ;							/* 上下左右に20pxの余白 */
+    margin:0 auto;
+    margin-bottom: 0.01em;
 }
 .logo-wrapper{
   margin:0;
@@ -26,6 +32,8 @@ body{
 .logo{
   width: 400px;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 @media screen and(max-width:479px;)
 {
@@ -33,14 +41,115 @@ body{
     width: 150px;
   }
 }
-.footer
+
+.a,.b,{
+  height: auto;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+.q{
+  float: left;
+  margin-top:60px;
+  margin-left: 220px;
+  width: 40px
+}
+.f{
+  float: right;
+margin-top:60px;
+margin-right: 300px;
+width: 40px;
+
+}
+@media screen and(max-width:479px;)
 {
-	border-top: 3px solid #888 ;		/* 枠線 */
+  .a{
+    width: 50px;
+  }
+}
+
+.footer-g
+{
+			/* 枠線 */
 	text-align: center ;				/* テキスト、画像の真ん中寄せ */
 	margin-top: 2em ;					/* 他のブロックとのスペース */
 	padding: 1em 0 ;					/* 上下の余白 */
-	background: #e8e8e8 ;
+  width: 1000px ;
+	padding: 20px ;							/* 上下左右に20pxの余白 */
+  margin:0 auto;
+  color: #ccdcff;	/* 枠線 */
 }
+.y{
+border: 3px solid #A164C1;
+margin: 0;
+padding: 0;
+}
+.yy{
+border: 3px solid #B57AD5;
+margin: 0;
+padding: 0;
+}
+.yyy{
+border: 3px solid #C75684;
+margin: 0;
+padding: 0;
+}
+.yyyy{
+border: 3px solid #B5138F;
+margin: 0;
+padding: 0;
+}
+.yyyyy{
+border: 3px solid #9D14A2;
+margin: 0;
+padding: 0;
+}
+.yyyyyy{
+border: 3px solid #995c78;
+margin: 0;
+padding: 0;
+}
+.yyyyyyy{
+border: 3px solid #CE3780;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyy{
+border: 3px solid #CE3780;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyyy{
+border: 3px solid #B866BE;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyyyy{
+border: 3px solid #AB7DC5;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyyyyy{
+border-left: 3px solid #AB7DC5;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyyyyyy{
+border: 3px solid #803359;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyyyyyyy{
+border: 3px solid #cca3b7;
+margin: 0;
+padding: 0;
+}
+.yyyyyyyyyyyyyy{
+border: 3px solid #e6b8ce;
+margin: 0;
+padding: 0;
+}
+
 .wrapper
 {
 	width: 1000px ;
@@ -60,6 +169,9 @@ body{
 	width: 618px ;
 	padding: 20px ;							/* 上下左右に20pxの余白 */
 	border: 1px solid rgba(0,0,0,.1) ;		/* 枠線 */
+}
+.main ,.side{
+
 }
 .side
 {
