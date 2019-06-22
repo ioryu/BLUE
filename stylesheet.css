@@ -20,15 +20,33 @@ border: 3px solid  #cca3b7;
   	margin-top: 2em ;					/* 他のブロックとのスペース */
   	padding: 1em 0 ;					/* 上下の余白 */
     width: 1000px ;
-  	padding: 20px ;							/* 上下左右に20pxの余白 */
+  	padding-bottom: 20px ;							/* 上下左右に20pxの余白 */
     margin:0 auto;
     margin-bottom: 0.01em;
 }
+
 .logo-wrapper{
   margin:0;
   padding:0;
   line-height: 1;
 }
+.v{
+  width: 480px;
+  margin: auto;
+}
+.p{
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+}
+.q{
+  float: right;
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+}
+
 .logo{
   width: 400px;
   height: auto;
@@ -42,34 +60,8 @@ border: 3px solid  #cca3b7;
   }
 }
 
-.a,.b,{
-  height: auto;
-  width: 40px;
-  margin: 0;
-  padding: 0;
-}
-.q{
-  float: left;
-  margin-top:60px;
-  margin-left: 220px;
-  width: 40px
-}
-.f{
-  float: right;
-margin-top:60px;
-margin-right: 300px;
-width: 40px;
-
-}
-@media screen and(max-width:479px;)
-{
-  .a{
-    width: 50px;
-  }
-}
-
 .footer-g
-{			/* 枠線 */
+{
 	text-align: center ;				/* テキスト、画像の真ん中寄せ */
 	margin-top: 2em ;					/* 他のブロックとのスペース */
 	padding: 1em 0 ;					/* 上下の余白 */
