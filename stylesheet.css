@@ -210,7 +210,7 @@ padding: 0;
   		float: none ;		/* floatを無効する */
   	}
   }
-  .wrapper
+  .wrapper,.p,.q
   {
   	overflow: hidden ;		/* floatを解除する */
   }
