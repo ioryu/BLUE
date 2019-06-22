@@ -5,7 +5,7 @@ body{
   line-height: 1.618;
 }
 
-@media screen and (max-width:479px)
+@@media screen and (max-width:479px)
  {
 body{
   font-size: 13px;
@@ -58,10 +58,9 @@ border: 3px solid  #cca3b7;
   .logo{
     width: 150px;
   }
-.p,.q{
+  .p,.q{
     float: none;
-	
-
+    width: 20px;
   }
 }
 
@@ -175,7 +174,7 @@ padding: 0;
 }
 @media screen and ( max-width:479px )
 {
-	.main
+	.main,.footer-g
 	{
 		width: auto ;
 		padding: 0 ;		/* 余白 */
@@ -212,7 +211,8 @@ padding: 0;
   		float: none ;		/* floatを無効する */
   	}
   }
-  .wrapper,.p,.q
+  .wrapper
   {
   	overflow: hidden ;		/* floatを解除する */
   }
+
