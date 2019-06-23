@@ -76,6 +76,8 @@ margin:0;
 }
 @media screen and ( max-width:479px )
 {
+.footer{
+width:auto;
 	.footer-g p
 	{
 		width: auto ;
