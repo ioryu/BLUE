@@ -14,56 +14,51 @@ body{
 .header , .footer{
 background: #994d71;
 border: 3px solid  #cca3b7;
+text-align: center;
 }
 .header-w {	/* 枠線 */
   	text-align: center ;				/* テキスト、画像の真ん中寄せ */
-  	margin-top: 2em ;					/* 他のブロックとのスペース */
+  	margin-top: 20em ;					/* 他のブロックとのスペース */
   	padding: 1em 0 ;					/* 上下の余白 */
     width: 1000px ;
   	padding-bottom: 20px ;							/* 上下左右に20pxの余白 */
     margin:0 auto;
     margin-bottom: 0.01em;
-}
-
-.logo-wrapper{
-  margin:0;
   padding:0;
   line-height: 1;
-}
-.v{
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 480px;
   margin: auto;
 }
 .p{
   float: left;
-  margin: 0;
-  padding: 0;
   padding-top: 80px;
+  width: 40px;
 }
 .q{
   float: right;
-  margin: 0;
-  padding: 0;
   padding-top: 80px;
+  width: 40px;
 }
 
 .logo{
   width: 400px;
   height: auto;
-  margin: 0;
-  padding: 0;
 }
 @media screen and(max-width:479px;)
 {
   .logo{
     width: 150px;
   }
-  
-.v{
+  .p,.q{
+    width: auto;
+  }
+  .header{
+    width: 1000px;
+  }
+}
 
-margin:0;
-}
-}
 .footer-g
 {
 	text-align: center ;				/* テキスト、画像の真ん中寄せ */
@@ -73,87 +68,79 @@ margin:0;
 	padding: 20px ;							/* 上下左右に20pxの余白 */
   margin:0 auto;
   color: #ccdcff;	/* 枠線 */
+  background: #994d71;
 }
-@media screen and ( max-width:479px )
-{
-.footer{
-width:auto;
-	.footer-g p
-	{
-		width: auto ;
-		padding: 0 10px ;		/* 左右の余白 */
-	}
-}
+
 .y{
-border: 3px solid #A164C1;
-margin: 0;
-padding: 0;
-}
-.yy{
-border: 3px solid #B57AD5;
-margin: 0;
-padding: 0;
-}
-.yyy{
-border: 3px solid #C75684;
-margin: 0;
-padding: 0;
-}
-.yyyy{
-border: 3px solid #B5138F;
-margin: 0;
-padding: 0;
-}
-.yyyyy{
-border: 3px solid #9D14A2;
-margin: 0;
-padding: 0;
-}
-.yyyyyy{
-border: 3px solid #995c78;
-margin: 0;
-padding: 0;
-}
-.yyyyyyy{
-border: 3px solid #CE3780;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyy{
-border: 3px solid #CE3780;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyyy{
-border: 3px solid #B866BE;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyyyy{
-border: 3px solid #AB7DC5;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyyyyy{
-border-left: 3px solid #AB7DC5;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyyyyyy{
-border: 3px solid #803359;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyyyyyyy{
-border: 3px solid #cca3b7;
-margin: 0;
-padding: 0;
-}
-.yyyyyyyyyyyyyy{
-border: 3px solid #e6b8ce;
-margin: 0;
-padding: 0;
-}
+ border: 3px solid #A164C1;
+ margin: 0;
+ padding: 0;
+ }
+ .yy{
+ border: 3px solid #B57AD5;
+ margin: 0;
+ padding: 0;
+ }
+ .yyy{
+     border: 3px solid #C75684;
+    margin: 0;
+    padding: 0;
+    }
+  .yyyy{
+  border: 3px solid #B5138F;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyy{
+  border: 3px solid #9D14A2;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyy{
+  border: 3px solid #995c78;
+    margin: 0;
+    padding: 0;
+  }
+  .yyyyyyy{
+  border: 3px solid #CE3780;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyyyy{
+  border: 3px solid #CE3780;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyyyyy{
+  border: 3px solid #B866BE;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyyyyyy{
+  border: 3px solid #AB7DC5;
+  margin: 0;
+    padding: 0;
+    }
+  .yyyyyyyyyyy{
+  border-left: 3px solid #AB7DC5;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyyyyyyyy{
+  border: 3px solid #803359;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyyyyyyyyy{
+  border: 3px solid #cca3b7;
+  margin: 0;
+  padding: 0;
+  }
+  .yyyyyyyyyyyyyy{
+  border: 3px solid #e6b8ce;
+  margin: 0;
+  padding: 0;
+  }
 
 .wrapper
 {
@@ -175,16 +162,14 @@ padding: 0;
 	padding: 20px ;							/* 上下左右に20pxの余白 */
 	border: 1px solid rgba(0,0,0,.1) ;		/* 枠線 */
 }
-.main ,.side{
 
-}
 .side
 {
 	width: 320px ;
 }
 @media screen and ( max-width:479px )
 {
-	.main,.footer-g
+	.main,
 	{
 		width: auto ;
 		padding: 0 ;		/* 余白 */
@@ -221,9 +206,7 @@ padding: 0;
   		float: none ;		/* floatを無効する */
   	}
   }
-  .wrapper , .v ,.header-w
+  .wrapper
   {
   	overflow: hidden ;		/* floatを解除する */
   }
-
-
