@@ -48,7 +48,7 @@ text-align: center;
 @media screen and(max-width:479px;)
 {
   .logo{
-    width: 150px;
+    width: 50px;
   }
   .p,.q{
     width: auto;
