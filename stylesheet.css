@@ -82,7 +82,7 @@ border: 3px solid  #cca3b7;
 }
 @media screen and ( max-width:479px )
 {
-	.footer-g
+	.footer
 	{
 		width: auto ;
 		padding: 0 10px ;		/* 左右の余白 */
