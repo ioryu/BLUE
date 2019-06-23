@@ -228,7 +228,7 @@ padding: 0;
   		float: none ;		/* floatを無効する */
   	}
   }
-  .wrapper , .v
+  .wrapper , .v ,.header-w
   {
   	overflow: hidden ;		/* floatを解除する */
   }
