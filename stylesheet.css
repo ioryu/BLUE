@@ -227,3 +227,7 @@ text-align: center;
   		float: none ;		/* floatを無効する */
   	}
   }
+  .wrapper
+  {
+  	overflow: hidden ;		/* floatを解除する */
+  }
