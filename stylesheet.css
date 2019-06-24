@@ -14,7 +14,7 @@ body{
 }
 .header , .footer{
 background: #994d71;
-border: 3px solid #6F8C62; #B1DE9E;#1F7123;#E5D98C;#cca3b7;
+border: 3px solid #6F8C62; 
 text-align: center;
 }
 .header-w {	/* 枠線 */
